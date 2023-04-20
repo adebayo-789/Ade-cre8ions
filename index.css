@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  
+  .banner {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0, 0.300),rgba(0, 0, 0, 0.300)),url(colorful-pink-blurred-backgrounds-valentine-s-day-pink-background-abstract-gradient-light-pink-illustration-free-vector.webp);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .navbar {
+    padding: 10x 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #98166d;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+  }
+
+  
+  .navbar ul li:hover::after{
+
+    width: 100%;
+  }
+  
+  
+  .content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+
+  }
+
+  .content h1{
+    font-size: 70px;
+    margin-top: 10px;
+  }
+
+  content p{
+    margin: 20 auto;
+    font-weight: 100;
+    line-height: 25px;
+
+  }
+
+  button{
+   width: 200px;
+   padding: 15px 0;
+   text-align: center;
+   margin: 20px 10px;
+   border-radius: 25px;
+   font-weight: bold;
+   border: 2px solid #98166d;
+   background: transparent;
+   color: #fff;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+  }
+
+  span{
+    background: #98166d;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+  button:hover span{
+
+    width: 100%;
+  }
+
+ button:hover{
+  border: none;
+ }
+
+ 
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.content1{
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+
+  }
+
+  .content1 h1{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .content1 p{
+    margin: 20 auto;
+    font-weight: 100;
+    line-height: 25px;
+  }
+
+  .content2{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+  
+    }
+  
+    .content2 h1{
+      font-size: 30px;
+      margin-top: 10px;
+    }
+  
+    .content2 p{
+      margin: 20 auto;
+      font-weight: 100;
+      line-height: 25px;
+    }
